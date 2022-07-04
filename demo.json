@@ -2197,7 +2197,7 @@
         "name": "",
         "events": "all",
         "x": 860,
-        "y": 180,
+        "y": 220,
         "wires": [
             []
         ]
@@ -2239,8 +2239,8 @@
                 "t": "set",
                 "p": "payload",
                 "pt": "msg",
-                "to": "",
-                "tot": "str"
+                "to": "{\"group\":{\"show\":[\"Hide_Show_Function\"]}}",
+                "tot": "json"
             }
         ],
         "action": "",
