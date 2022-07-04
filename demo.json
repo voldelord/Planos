@@ -1,0 +1,2257 @@
+[
+    {
+        "id": "e33e6f6fb29fe604",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8ccb009ecaceb3a8",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c8b7e4be589b6814",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "480333ede75dcabf",
+        "type": "tab",
+        "label": "Flow 4",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1b169f36aff51343",
+        "type": "tab",
+        "label": "Flow 5",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "7f07d5d3c9705074",
+        "type": "tab",
+        "label": "Flow 6",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "463aaacf9dc29255",
+        "type": "tab",
+        "label": "Flow 7",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "690440a289c28c1b",
+        "type": "tab",
+        "label": "Flow 8",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "913ad9ac344b6f4f",
+        "type": "tab",
+        "label": "Flow 9",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "19fd6ed21bd37fa1",
+        "type": "tab",
+        "label": "Flow 10",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a12fb0d4d9397e4c",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "fd2b89764ee1d53a",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "enriquecrespo.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "5156ca9356a4abeb",
+        "type": "ui_group",
+        "name": "Temperaturas Area 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "66a42331a08bbcdf",
+        "type": "ui_group",
+        "name": "Temperaturas Area 2",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cfa8db43064a7a04",
+        "type": "ui_group",
+        "name": "Variables 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "36550ce61f606265",
+        "type": "ui_group",
+        "name": "Variables 2",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8c094e389388e833",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "e8e732b1e6fc3cdb",
+        "type": "ui_tab",
+        "name": "Molienda",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "12724b9789ba16fb",
+        "type": "ui_group",
+        "name": "CCMMOLIENDASECUNDARIA",
+        "tab": "f575e5f351013644",
+        "order": 2,
+        "disp": true,
+        "width": "10",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8a3544558c480ce9",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 23,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cbc5382ba26da4f3",
+        "type": "ui_spacer",
+        "z": "7f07d5d3c9705074",
+        "name": "spacer",
+        "group": "8a3544558c480ce9",
+        "order": 2,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "e364b2f5c44a1229",
+        "type": "ui_spacer",
+        "z": "7f07d5d3c9705074",
+        "name": "spacer",
+        "group": "8a3544558c480ce9",
+        "order": 3,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "0a6d5fcc6078c9af",
+        "type": "ui_spacer",
+        "z": "7f07d5d3c9705074",
+        "name": "spacer",
+        "group": "8a3544558c480ce9",
+        "order": 4,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "b0982ad101ddfc03",
+        "type": "ui_spacer",
+        "z": "7f07d5d3c9705074",
+        "name": "spacer",
+        "group": "8a3544558c480ce9",
+        "order": 5,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "a45f541caa2c9b1d",
+        "type": "ui_spacer",
+        "z": "7f07d5d3c9705074",
+        "name": "spacer",
+        "group": "8a3544558c480ce9",
+        "order": 6,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "73d910e2f06006af",
+        "type": "ui_spacer",
+        "z": "7f07d5d3c9705074",
+        "name": "spacer",
+        "group": "8a3544558c480ce9",
+        "order": 7,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "a33fc9da66d817ca",
+        "type": "ui_group",
+        "name": "Funciones",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "27c383b9d6ad7ad9",
+        "type": "ui_group",
+        "name": "Indicadores",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3d8420614183e2d9",
+        "type": "ui_group",
+        "name": "Graficos",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "97bb409e4518c026",
+        "type": "ui_group",
+        "name": "CCMMOLIENDASECUNDARIA",
+        "tab": "e8e732b1e6fc3cdb",
+        "order": 1,
+        "disp": true,
+        "width": "10",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "2ca3f48cef855bfd",
+        "type": "ui_group",
+        "name": "CCMMOLIENDASECUNDARIA",
+        "tab": "427c727e6b2a2d39",
+        "order": 3,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f575e5f351013644",
+        "type": "ui_tab",
+        "name": "CCMMOLIENDASECUNDARIA",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "427c727e6b2a2d39",
+        "type": "ui_tab",
+        "name": "Molino1",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "496f7b329d3bb8f8",
+        "type": "ui_spacer",
+        "z": "913ad9ac344b6f4f",
+        "name": "spacer",
+        "group": "2ca3f48cef855bfd",
+        "order": 15,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "b322ca387b8fd23d",
+        "type": "ui_spacer",
+        "z": "913ad9ac344b6f4f",
+        "name": "spacer",
+        "group": "2ca3f48cef855bfd",
+        "order": 17,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "cb8ff72b31f9f3fc",
+        "type": "ui_tab",
+        "name": "Hide_Show",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "996f9c90d74b5ab8",
+        "type": "ui_group",
+        "name": "Funtion",
+        "tab": "cb8ff72b31f9f3fc",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ca618eadf0f354ee",
+        "type": "ui_group",
+        "name": "Settings",
+        "tab": "cb8ff72b31f9f3fc",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "734eaf3c341843aa",
+        "type": "inject",
+        "z": "e33e6f6fb29fe604",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "37cbdb19bd4002df",
+        "type": "ui_button",
+        "z": "8ccb009ecaceb3a8",
+        "name": "",
+        "group": "",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "hello",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 130,
+        "y": 160,
+        "wires": [
+            [
+                "7d8051e97f8eeddd",
+                "b0836a9bd9bafb87"
+            ]
+        ]
+    },
+    {
+        "id": "b0836a9bd9bafb87",
+        "type": "debug",
+        "z": "8ccb009ecaceb3a8",
+        "name": "ejecucion",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "7d8051e97f8eeddd",
+        "type": "ui_text",
+        "z": "8ccb009ecaceb3a8",
+        "group": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 470,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "2d4e1f474a8ed584",
+        "type": "ui_led",
+        "z": "c8b7e4be589b6814",
+        "order": 0,
+        "group": "66a42331a08bbcdf",
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0505",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#53ff24",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 630,
+        "y": 3300,
+        "wires": []
+    },
+    {
+        "id": "4c9e18d5f3a78e77",
+        "type": "ui_switch",
+        "z": "c8b7e4be589b6814",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "5156ca9356a4abeb",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 350,
+        "y": 3380,
+        "wires": [
+            [
+                "2d4e1f474a8ed584"
+            ]
+        ]
+    },
+    {
+        "id": "f4aec75333edac41",
+        "type": "ui_switch",
+        "z": "c8b7e4be589b6814",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "cfa8db43064a7a04",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 350,
+        "y": 3520,
+        "wires": [
+            [
+                "ecb24bc4d7f9881a"
+            ]
+        ]
+    },
+    {
+        "id": "ecb24bc4d7f9881a",
+        "type": "ui_led",
+        "z": "c8b7e4be589b6814",
+        "order": 1,
+        "group": "cfa8db43064a7a04",
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#001eff",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#000000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 750,
+        "y": 3440,
+        "wires": []
+    },
+    {
+        "id": "5dbe72576426aa3b",
+        "type": "ui_switch",
+        "z": "c8b7e4be589b6814",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "36550ce61f606265",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 350,
+        "y": 3660,
+        "wires": [
+            [
+                "4102c7f6a5d21936"
+            ]
+        ]
+    },
+    {
+        "id": "4102c7f6a5d21936",
+        "type": "ui_led",
+        "z": "c8b7e4be589b6814",
+        "order": 1,
+        "group": "36550ce61f606265",
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            },
+            {
+                "color": "#800000",
+                "value": "false",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 750,
+        "y": 3600,
+        "wires": []
+    },
+    {
+        "id": "b10d30715d9d0f4d",
+        "type": "ui_button",
+        "z": "1b169f36aff51343",
+        "name": "",
+        "group": "8c094e389388e833",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "passthru": false,
+        "label": "Change",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 360,
+        "y": 200,
+        "wires": [
+            [
+                "78523c7bb49de33b"
+            ]
+        ]
+    },
+    {
+        "id": "78523c7bb49de33b",
+        "type": "ui_led",
+        "z": "1b169f36aff51343",
+        "order": 1,
+        "group": "8c094e389388e833",
+        "width": "0",
+        "height": "0",
+        "label": "",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 670,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "672fa19450d8d0e0",
+        "type": "ui_button",
+        "z": "1b169f36aff51343",
+        "name": "",
+        "group": "8c094e389388e833",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "passthru": false,
+        "label": "Change",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 360,
+        "y": 280,
+        "wires": [
+            [
+                "78523c7bb49de33b"
+            ]
+        ]
+    },
+    {
+        "id": "b0aa59bdee90a418",
+        "type": "ui_audio",
+        "z": "1b169f36aff51343",
+        "name": "",
+        "group": "8c094e389388e833",
+        "voice": "Google 粤語（香港）",
+        "always": "",
+        "x": 620,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "dc5ec2e8fda2e8fb",
+        "type": "ui_button",
+        "z": "1b169f36aff51343",
+        "name": "",
+        "group": "8c094e389388e833",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Start",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "play_arrow",
+        "payload": "BUENOS DIAS",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 350,
+        "y": 120,
+        "wires": [
+            [
+                "b0aa59bdee90a418",
+                "fe69291a32e9d8cc"
+            ]
+        ]
+    },
+    {
+        "id": "fe69291a32e9d8cc",
+        "type": "ui_toast",
+        "z": "1b169f36aff51343",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 640,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "bd0b713fd465462a",
+        "type": "ui_button",
+        "z": "7f07d5d3c9705074",
+        "name": "",
+        "group": "12724b9789ba16fb",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Dosificacion",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 310,
+        "y": 240,
+        "wires": [
+            [
+                "569b1776423fc49a"
+            ]
+        ]
+    },
+    {
+        "id": "ab0d9c4b7ec2bffc",
+        "type": "ui_button",
+        "z": "7f07d5d3c9705074",
+        "name": "",
+        "group": "12724b9789ba16fb",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Molienda",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 580,
+        "y": 240,
+        "wires": [
+            [
+                "569b1776423fc49a"
+            ]
+        ]
+    },
+    {
+        "id": "cc2bb732b5c53cda",
+        "type": "ui_button",
+        "z": "7f07d5d3c9705074",
+        "name": "",
+        "group": "12724b9789ba16fb",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Fundicion",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 300,
+        "y": 320,
+        "wires": [
+            [
+                "569b1776423fc49a"
+            ]
+        ]
+    },
+    {
+        "id": "8125a0174bade9ac",
+        "type": "ui_button",
+        "z": "7f07d5d3c9705074",
+        "name": "",
+        "group": "12724b9789ba16fb",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Elucion",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 580,
+        "y": 320,
+        "wires": [
+            [
+                "569b1776423fc49a"
+            ]
+        ]
+    },
+    {
+        "id": "76a4f780d1ac8bb7",
+        "type": "ui_button",
+        "z": "7f07d5d3c9705074",
+        "name": "",
+        "group": "12724b9789ba16fb",
+        "order": 6,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Hidrociclon",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 310,
+        "y": 400,
+        "wires": [
+            [
+                "569b1776423fc49a"
+            ]
+        ]
+    },
+    {
+        "id": "536d9ad759cf3503",
+        "type": "ui_button",
+        "z": "7f07d5d3c9705074",
+        "name": "",
+        "group": "12724b9789ba16fb",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Cianuracion",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 590,
+        "y": 400,
+        "wires": [
+            [
+                "569b1776423fc49a"
+            ]
+        ]
+    },
+    {
+        "id": "75b5f175dcb20218",
+        "type": "ui_button",
+        "z": "7f07d5d3c9705074",
+        "name": "",
+        "group": "12724b9789ba16fb",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Pantalla Principal",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-home",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 450,
+        "y": 500,
+        "wires": [
+            [
+                "569b1776423fc49a"
+            ]
+        ]
+    },
+    {
+        "id": "569b1776423fc49a",
+        "type": "ui_ui_control",
+        "z": "7f07d5d3c9705074",
+        "name": "",
+        "events": "all",
+        "x": 440,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "478427b739bed5e9",
+        "type": "ui_text",
+        "z": "7f07d5d3c9705074",
+        "group": "12724b9789ba16fb",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "CCM MOLIENDA SECUNDARIA",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 420,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "6c16bf5ee9a10f7c",
+        "type": "ui_button",
+        "z": "463aaacf9dc29255",
+        "name": "",
+        "group": "a33fc9da66d817ca",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"group\":{\"hide\":[\"Admin_2_Indicadores\"],\"show\":[\"Admin_2_Graficos\"]}}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 180,
+        "wires": [
+            [
+                "1bbcedbb626f0b4c"
+            ]
+        ]
+    },
+    {
+        "id": "ea55c713e43cf190",
+        "type": "ui_button",
+        "z": "463aaacf9dc29255",
+        "name": "",
+        "group": "a33fc9da66d817ca",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "{\"group\":{\"hide\":[\"Admin_2_Graficos\"],\"show\":[\"Admin_2_Indicadores\"]}}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 240,
+        "wires": [
+            [
+                "1bbcedbb626f0b4c"
+            ]
+        ]
+    },
+    {
+        "id": "1bbcedbb626f0b4c",
+        "type": "ui_ui_control",
+        "z": "463aaacf9dc29255",
+        "name": "",
+        "events": "all",
+        "x": 500,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "53d8dfe58cfd49c9",
+        "type": "ui_gauge",
+        "z": "463aaacf9dc29255",
+        "name": "",
+        "group": "27c383b9d6ad7ad9",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "10",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "4",
+        "seg2": "7",
+        "className": "",
+        "x": 470,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "7c13d5efb5acef89",
+        "type": "ui_gauge",
+        "z": "463aaacf9dc29255",
+        "name": "",
+        "group": "27c383b9d6ad7ad9",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "4",
+        "seg2": "7",
+        "className": "",
+        "x": 470,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "55981cec03ca55ca",
+        "type": "ui_gauge",
+        "z": "463aaacf9dc29255",
+        "name": "",
+        "group": "27c383b9d6ad7ad9",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "4",
+        "seg2": "7",
+        "className": "",
+        "x": 470,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "88ac6f8d48aced88",
+        "type": "ui_chart",
+        "z": "463aaacf9dc29255",
+        "name": "",
+        "group": "3d8420614183e2d9",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "1",
+        "ymax": "10",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": "25",
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 470,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a22ee2de1d8b30cf",
+        "type": "ui_chart",
+        "z": "463aaacf9dc29255",
+        "name": "",
+        "group": "3d8420614183e2d9",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "1",
+        "ymax": "10",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": "25",
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 470,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6d0585bae0741174",
+        "type": "ui_slider",
+        "z": "463aaacf9dc29255",
+        "name": "",
+        "label": "slider",
+        "tooltip": "",
+        "group": "27c383b9d6ad7ad9",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 270,
+        "y": 320,
+        "wires": [
+            [
+                "53d8dfe58cfd49c9",
+                "7c13d5efb5acef89",
+                "55981cec03ca55ca"
+            ]
+        ]
+    },
+    {
+        "id": "a0013709fdf74ecd",
+        "type": "ui_slider",
+        "z": "463aaacf9dc29255",
+        "name": "",
+        "label": "slider",
+        "tooltip": "",
+        "group": "3d8420614183e2d9",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "className": "",
+        "x": 270,
+        "y": 480,
+        "wires": [
+            [
+                "88ac6f8d48aced88",
+                "a22ee2de1d8b30cf"
+            ]
+        ]
+    },
+    {
+        "id": "45f7d4aa48f9a92b",
+        "type": "ui_button",
+        "z": "690440a289c28c1b",
+        "name": "",
+        "group": "97bb409e4518c026",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Molino 1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "2",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 280,
+        "y": 260,
+        "wires": [
+            [
+                "33ac86c09cab0e5b"
+            ]
+        ]
+    },
+    {
+        "id": "77ab494a36168e87",
+        "type": "ui_button",
+        "z": "690440a289c28c1b",
+        "name": "",
+        "group": "97bb409e4518c026",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Molino 2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 540,
+        "y": 260,
+        "wires": [
+            [
+                "33ac86c09cab0e5b"
+            ]
+        ]
+    },
+    {
+        "id": "8036fd0a53deba2a",
+        "type": "ui_button",
+        "z": "690440a289c28c1b",
+        "name": "",
+        "group": "97bb409e4518c026",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Molino 3",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 280,
+        "y": 340,
+        "wires": [
+            [
+                "33ac86c09cab0e5b"
+            ]
+        ]
+    },
+    {
+        "id": "fd5a5605d5f80e37",
+        "type": "ui_button",
+        "z": "690440a289c28c1b",
+        "name": "",
+        "group": "97bb409e4518c026",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "passthru": false,
+        "label": "Molino 4",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 560,
+        "y": 340,
+        "wires": [
+            [
+                "33ac86c09cab0e5b"
+            ]
+        ]
+    },
+    {
+        "id": "281258a82724fcef",
+        "type": "ui_button",
+        "z": "690440a289c28c1b",
+        "name": "",
+        "group": "97bb409e4518c026",
+        "order": 7,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Molino 1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "2",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 260,
+        "y": 440,
+        "wires": [
+            [
+                "33ac86c09cab0e5b"
+            ]
+        ]
+    },
+    {
+        "id": "6d828777bdd3791f",
+        "type": "ui_button",
+        "z": "690440a289c28c1b",
+        "name": "",
+        "group": "97bb409e4518c026",
+        "order": 8,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Molino 2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 400,
+        "y": 440,
+        "wires": [
+            [
+                "33ac86c09cab0e5b"
+            ]
+        ]
+    },
+    {
+        "id": "e98e7c695d910a39",
+        "type": "ui_button",
+        "z": "690440a289c28c1b",
+        "name": "",
+        "group": "97bb409e4518c026",
+        "order": 9,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Molino 3",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 540,
+        "y": 440,
+        "wires": [
+            [
+                "33ac86c09cab0e5b"
+            ]
+        ]
+    },
+    {
+        "id": "a5bc28e446a19e03",
+        "type": "ui_button",
+        "z": "690440a289c28c1b",
+        "name": "",
+        "group": "97bb409e4518c026",
+        "order": 10,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Molino 4",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 700,
+        "y": 440,
+        "wires": [
+            [
+                "33ac86c09cab0e5b"
+            ]
+        ]
+    },
+    {
+        "id": "611fef7937f4e7c1",
+        "type": "ui_button",
+        "z": "690440a289c28c1b",
+        "name": "",
+        "group": "97bb409e4518c026",
+        "order": 6,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Home",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-home",
+        "payload": "0",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 440,
+        "wires": [
+            [
+                "33ac86c09cab0e5b"
+            ]
+        ]
+    },
+    {
+        "id": "33ac86c09cab0e5b",
+        "type": "ui_ui_control",
+        "z": "690440a289c28c1b",
+        "name": "",
+        "events": "all",
+        "x": 660,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "64b901a1d001f283",
+        "type": "ui_text",
+        "z": "690440a289c28c1b",
+        "group": "97bb409e4518c026",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "MOLIENDA",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 430,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "279e0e67c1d3fe96",
+        "type": "ui_button",
+        "z": "913ad9ac344b6f4f",
+        "name": "",
+        "group": "2ca3f48cef855bfd",
+        "order": 2,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "MOTOR 1 / 200HP",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 310,
+        "y": 260,
+        "wires": [
+            [
+                "bc0d40110916ad0a"
+            ]
+        ]
+    },
+    {
+        "id": "7c51f66d7b07f756",
+        "type": "ui_button",
+        "z": "913ad9ac344b6f4f",
+        "name": "",
+        "group": "2ca3f48cef855bfd",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "SUMIDERO",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 330,
+        "y": 320,
+        "wires": [
+            [
+                "bc0d40110916ad0a"
+            ]
+        ]
+    },
+    {
+        "id": "62ba9f874419d73f",
+        "type": "ui_button",
+        "z": "913ad9ac344b6f4f",
+        "name": "",
+        "group": "2ca3f48cef855bfd",
+        "order": 3,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "BOMBA DE LODO 1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 540,
+        "y": 260,
+        "wires": [
+            [
+                "bc0d40110916ad0a"
+            ]
+        ]
+    },
+    {
+        "id": "273d22843e5ba24f",
+        "type": "ui_button",
+        "z": "913ad9ac344b6f4f",
+        "name": "",
+        "group": "2ca3f48cef855bfd",
+        "order": 6,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "CAL",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 510,
+        "y": 320,
+        "wires": [
+            [
+                "bc0d40110916ad0a"
+            ]
+        ]
+    },
+    {
+        "id": "cde31ba3b988bd37",
+        "type": "ui_button",
+        "z": "913ad9ac344b6f4f",
+        "name": "",
+        "group": "2ca3f48cef855bfd",
+        "order": 16,
+        "width": 8,
+        "height": 1,
+        "passthru": false,
+        "label": "Home",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "fa-home",
+        "payload": "0",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 250,
+        "y": 460,
+        "wires": [
+            [
+                "bc0d40110916ad0a"
+            ]
+        ]
+    },
+    {
+        "id": "e6fba6878ce2fa11",
+        "type": "ui_button",
+        "z": "913ad9ac344b6f4f",
+        "name": "",
+        "group": "2ca3f48cef855bfd",
+        "order": 8,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "AGUA",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 310,
+        "y": 380,
+        "wires": [
+            [
+                "bc0d40110916ad0a"
+            ]
+        ]
+    },
+    {
+        "id": "6fe4a15e1a8b1cd2",
+        "type": "ui_button",
+        "z": "913ad9ac344b6f4f",
+        "name": "",
+        "group": "2ca3f48cef855bfd",
+        "order": 9,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "REPORTES",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 510,
+        "y": 380,
+        "wires": [
+            [
+                "bc0d40110916ad0a"
+            ]
+        ]
+    },
+    {
+        "id": "5a8d581383bf4874",
+        "type": "ui_button",
+        "z": "913ad9ac344b6f4f",
+        "name": "",
+        "group": "2ca3f48cef855bfd",
+        "order": 10,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "LAYOUT",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 680,
+        "y": 380,
+        "wires": [
+            [
+                "bc0d40110916ad0a"
+            ]
+        ]
+    },
+    {
+        "id": "f5704339e65677d3",
+        "type": "ui_button",
+        "z": "913ad9ac344b6f4f",
+        "name": "",
+        "group": "2ca3f48cef855bfd",
+        "order": 12,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Molino 2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 520,
+        "y": 460,
+        "wires": [
+            [
+                "bc0d40110916ad0a"
+            ]
+        ]
+    },
+    {
+        "id": "37d8d3d5116677f4",
+        "type": "ui_button",
+        "z": "913ad9ac344b6f4f",
+        "name": "",
+        "group": "2ca3f48cef855bfd",
+        "order": 11,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Molino 1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 380,
+        "y": 460,
+        "wires": [
+            [
+                "bc0d40110916ad0a"
+            ]
+        ]
+    },
+    {
+        "id": "8f0bf14d70cdf367",
+        "type": "ui_button",
+        "z": "913ad9ac344b6f4f",
+        "name": "",
+        "group": "2ca3f48cef855bfd",
+        "order": 13,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Molino 3",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 660,
+        "y": 460,
+        "wires": [
+            [
+                "bc0d40110916ad0a"
+            ]
+        ]
+    },
+    {
+        "id": "af1ce983cbb8172f",
+        "type": "ui_button",
+        "z": "913ad9ac344b6f4f",
+        "name": "",
+        "group": "2ca3f48cef855bfd",
+        "order": 14,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Molino 4",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 800,
+        "y": 460,
+        "wires": [
+            [
+                "bc0d40110916ad0a"
+            ]
+        ]
+    },
+    {
+        "id": "4a7705f8d193200b",
+        "type": "ui_button",
+        "z": "913ad9ac344b6f4f",
+        "name": "",
+        "group": "2ca3f48cef855bfd",
+        "order": 7,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "CIANURO",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 690,
+        "y": 320,
+        "wires": [
+            [
+                "bc0d40110916ad0a"
+            ]
+        ]
+    },
+    {
+        "id": "6605d300d7829b33",
+        "type": "ui_button",
+        "z": "913ad9ac344b6f4f",
+        "name": "",
+        "group": "2ca3f48cef855bfd",
+        "order": 4,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "CORREA TRANSPORTADORA 1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 800,
+        "y": 260,
+        "wires": [
+            [
+                "bc0d40110916ad0a"
+            ]
+        ]
+    },
+    {
+        "id": "bc0d40110916ad0a",
+        "type": "ui_ui_control",
+        "z": "913ad9ac344b6f4f",
+        "name": "",
+        "events": "all",
+        "x": 560,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fedf52093369cb94",
+        "type": "ui_text",
+        "z": "913ad9ac344b6f4f",
+        "group": "2ca3f48cef855bfd",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Molino 1",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 520,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "12dc6158496417b1",
+        "type": "ui_button",
+        "z": "19fd6ed21bd37fa1",
+        "name": "",
+        "group": "996f9c90d74b5ab8",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 210,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5bd477494e756856",
+        "type": "ui_dropdown",
+        "z": "19fd6ed21bd37fa1",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "ca618eadf0f354ee",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Show",
+                "value": true,
+                "type": "bool"
+            },
+            {
+                "label": "Hide",
+                "value": false,
+                "type": "bool"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 200,
+        "y": 220,
+        "wires": [
+            [
+                "66e562280a6130a8"
+            ]
+        ]
+    },
+    {
+        "id": "fa324a6a261496c7",
+        "type": "ui_ui_control",
+        "z": "19fd6ed21bd37fa1",
+        "name": "",
+        "events": "all",
+        "x": 860,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "66e562280a6130a8",
+        "type": "switch",
+        "z": "19fd6ed21bd37fa1",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 430,
+        "y": 180,
+        "wires": [
+            [
+                "c67d8a9f50eb59f2"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "c67d8a9f50eb59f2",
+        "type": "change",
+        "z": "19fd6ed21bd37fa1",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 660,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    }
+]
