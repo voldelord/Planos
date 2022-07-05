@@ -2383,8 +2383,8 @@
         "payloadType": "str",
         "topic": "topic",
         "topicType": "msg",
-        "x": 730,
-        "y": 300,
+        "x": 830,
+        "y": 240,
         "wires": [
             []
         ]
